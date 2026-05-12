@@ -1,0 +1,1 @@
+export default function Page(){return <div className='card'><h1>Selector Converter (sans IA)</h1></div>}

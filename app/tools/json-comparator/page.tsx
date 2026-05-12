@@ -1,0 +1,1 @@
+export default function Page(){return <div className='card'><h1>JSON Comparator</h1></div>}

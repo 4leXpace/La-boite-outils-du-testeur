@@ -1,0 +1,1 @@
+export default function Page(){return <div className='card'><h1>Report Prettifier</h1></div>}

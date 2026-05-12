@@ -1,0 +1,2 @@
+import fs from 'fs';import path from 'path';import matter from 'gray-matter';
+export function getContent(folder){const dir=path.join(process.cwd(),'content',folder);return fs.readdirSync(dir).map(f=>{const raw=fs.readFileSync(path.join(dir,f),'utf8');const {data}=matter(raw);return data;});}

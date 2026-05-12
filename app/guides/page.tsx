@@ -1,0 +1,2 @@
+import { getContent } from '@/lib/content';
+export default function Page(){const items=getContent('guides');return <>{items.map((g,i)=><div key={i} className='card'><h3>{g.title}</h3><p>{g.description}</p></div>)}</>}

@@ -1,0 +1,1 @@
+export default function Page(){return <div className='card'><h1>Administration</h1><p>Ajoutez vos actualités dans content/news au format MDX.</p></div>}

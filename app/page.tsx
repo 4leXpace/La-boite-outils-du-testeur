@@ -1,0 +1,3 @@
+import Link from 'next/link';
+const tools=[['JSON Comparator','json-comparator'],['Test Data Generator','test-data-generator'],['Selector Converter','selector-converter'],['Gherkin Generator','gherkin-generator'],['Report Prettifier','report-prettifier']];
+export default function Page(){return <><h1>La Boîte à Outils du Testeur</h1><div>{tools.map(([n,s])=><div key={s}><Link href={'/tools/'+s}>{n}</Link></div>)}</div></>}

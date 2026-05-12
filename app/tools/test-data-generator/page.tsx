@@ -1,0 +1,1 @@
+export default function Page(){return <div className='card'><h1>Test Data Generator</h1></div>}
